@@ -206,10 +206,12 @@ p {
 
 #test p {
     margin-top: 25px;
-    font-size: 21px;
+    font-size: 30px;
     font: 400 1em/1.8 "Lato", sans-serif;
+    margin: 30px;
     text-align: center;
     font-weight: bold;
+    text-shadow: 2px 2px #ffffff;
     animation: fadein 6s;
     -moz-animation: fadein 6s; /* Firefox */
     -webkit-animation: fadein 6s; /* Safari and Chrome */
