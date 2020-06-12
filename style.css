@@ -1,0 +1,249 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 1em/1.8 "Lato", sans-serif;
+  color: rgb(185, 182, 182);
+}
+nav {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  height: 3.5em;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  box-sizing: border-box;
+  padding: 12px 20px;;
+  transition: background-color 1s ease-out;
+  transition: color 1s ease-out;
+  transition: box-shadow 0.5s ease-out;
+  color: #faf3dd;
+  
+}
+
+nav span {
+  z-index: 1;
+  font-weight: 600;
+  letter-spacing: 0.3em;
+}
+
+nav.scroll {
+  box-shadow: 0px 4px 7px #777;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  background-color: white;
+  color: #777;
+  
+}
+
+nav a {
+  font-size: 1.2em;
+  text-decoration: none;
+  left: 10px;
+  color:#e76f51;
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+}
+
+nav a:hover {
+  color: grey;
+}
+.space {
+  padding: 20px
+}
+body > header {
+  margin-top: 4.7em;
+}
+.img-1, .img-2, .img-3, .img-4 {
+  z-index: -1;
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.img-1 {
+  background-image: url("review.jpg");
+  min-height: 100%;
+}
+
+.img-2 {
+  background-image: url("about.jpg");
+  min-height: 400px;
+}
+
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+.caption span.border2 {
+  background-color: rgba(17, 17, 17, 0);
+  color: #000000;
+  padding: 18px;
+  font-size: 8em;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 7px;
+  text-shadow: 2px 2px #00000062;
+}
+.caption span.border {
+  background-color: rgba(17, 17, 17, 0);
+  color: #fff;
+  padding: 18px;
+  font-size: 8em;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 7px;
+  text-shadow: 2px 2px #00000062;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 1.75em"Lato", sans-serif;
+  color: #e76f51;
+}
+
+.center{
+  text-align: center;
+}
+.text1 {
+  color: #777;
+  background-color: white;
+  text-align: center;
+  font-size: 1.25em;
+  padding: 50px 80px;
+  text-align: justify;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  
+}
+
+.text2 {
+  background-color: transparent;
+  font-size: 2.5em;
+  color: #e76f51;
+  background-color: rgba(17, 17, 17, 0);
+  padding: 18px;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 7px;
+  text-shadow: 2px 2px #00000062;
+
+}
+
+.text3 {
+  color:#e76f51;
+  background-color:#282E34;
+  text-align:center;
+  padding:50px 80px; 
+  text-align: justify;
+
+}
+.relativetext {
+  position: relative;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+
+div.hidden {
+  display: none
+}
+
+section {
+  opacity: 0;
+  
+  transform: translate(0, 20px);
+  transition: all 1s;
+}
+
+section.visible {
+  opacity: 1;
+
+  transform: translate(0,0);
+}
+
+
+div.fadein {
+  opacity: 0;
+  
+  transform: translate(0, 20px);
+  transition: all 1s;
+}
+
+div.fadein.visible {
+  opacity: 1;
+
+  transform: translate(0,0);
+}
+
+p {
+  text-align: center;
+}
+
+.centerbutton {
+  align-content: center;
+}
+
+
+.column {
+  margin: 25px;
+  float: left;
+  width: 30%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  height: 100%;
+}
+
+.column:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+#test p {
+    margin-top: 25px;
+    font-size: 21px;
+    font: 400 1em/1.8 "Lato", sans-serif;
+    text-align: center;
+    font-weight: bold;
+    animation: fadein 6s;
+    -moz-animation: fadein 6s; /* Firefox */
+    -webkit-animation: fadein 6s; /* Safari and Chrome */
+    -o-animation: fadein 6s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}

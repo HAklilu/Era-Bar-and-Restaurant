@@ -1,0 +1,11 @@
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+    @media all and (orientation: landscape) and (max-width: 750px) {
+        #psa {
+            width:100%;
+            height: auto;
+        }
+    }
