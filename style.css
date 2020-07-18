@@ -86,7 +86,7 @@ body > header {
 .caption span.border2 {
   background-color: rgba(17, 17, 17, 0);
   color: #000000;
-  padding: 1px;
+  padding: 0px;
   font-size: 8em;
   font-family: 'Poppins', sans-serif;
   letter-spacing: 7px;
@@ -95,7 +95,7 @@ body > header {
 .caption span.border {
   background-color: rgba(17, 17, 17, 0);
   color: #fff;
-  padding: 1px;
+  padding: 0px;
   font-size: 3em;
   font-family: 'Poppins', sans-serif;
   letter-spacing: 7px;
@@ -128,7 +128,7 @@ h3 {
   background-color: transparent;
   text-align: center;
   font-size: 2em;
-  padding: 5px 8px;
+  padding: 0px 0px;
   text-align: justify;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
   
