@@ -78,7 +78,7 @@ body > header {
 .caption {
   position: absolute;
   left: 0;
-  top: 40%;
+  top: 2%;
   width: 100%;
   text-align: center;
   color: #000;
@@ -127,7 +127,7 @@ h3 {
   color: #000000;
   background-color: transparent;
   text-align: center;
-  font-size: 3em;
+  font-size: 2em;
   padding: 50px 80px;
   text-align: justify;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
