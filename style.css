@@ -5,9 +5,9 @@ body, html {
   color: rgb(185, 182, 182);
 }
 
-p.nav {
-  text-shadow: 0 0 3px #FFFFFF;
-}
+//p.nav {
+//  text-shadow: 0 0 3px #FFFFFF;
+//}
 
 nav {
   position: fixed;
@@ -44,9 +44,9 @@ nav a {
   font-size: 1.2em;
   text-decoration: none;
   left: 10px;
-  color:#e76f51;
-  text-shadow: 0 0 9px #e76f51;
-  font-family: 'Lato', sans-serif;
+  color:#000000;
+  //text-shadow: 0 0 9px #e76f51;
+  font-family: 'Georgia', sans-serif;
   font-weight: 600;
   letter-spacing: 0.1em;
 }
